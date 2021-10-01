@@ -1,0 +1,20 @@
+[package]
+name = 'bash-semver'
+slug = 'bash_semver'
+version = ''
+authors = ['Edwin Kofler <edwin@kofler.dev>']
+description = ''
+
+[run]
+dependencies = ['https://github.com/hyperupcall/bats-common-utils.git@v3.0.0']
+sourceDirs = ['pkg/lib/fns']
+builtinDirs = []
+binDirs = []
+completionDirs = []
+manDirs = []
+
+[run.shellEnvironment]
+
+[run.setOptions]
+
+[run.shoptOptions]
