@@ -24,7 +24,7 @@ bash_semver.parse() {
 	# fi
 
 	local arr=()
-	readarray -t arr <<< "$("$PWD/pkg/share/parse.pl" "$version")"
+	readarray -t arr <<< "$("$BASALT_PACKAGE_DIR/pkg/share/parse.pl" "$version")"
 	REPLY[major]="${arr[0]}"
 	REPLY[minor]="${arr[1]}"
 	REPLY[patch]="${arr[2]}"
