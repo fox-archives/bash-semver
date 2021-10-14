@@ -1,27 +1,10 @@
 # bash-semver
 
-Semantic version library for Bash
+Semantic Versioning for Bash
 
-STATUS: IN DEVELOPMENT
+## Notes
 
-Prior art
-
-| Software | No eval | General purpose
-| - | - | -
-| bash-semver | Yes | Yes
-| [semver-tool] | No | Yes
-| [semver_bash] | No | Yes
-| [shell-semver] | Yes | No
-| [semver.sh] | No | No
-| [semtag] | No | Yes
-
-[semver-tool]: https://github.com/fsaintjacques/semver-tool
-[semver_bash]: https://github.com/cloudflare/semver_bash
-[shell-semver]: https://github.com/fmahnke/shell-semver
-[semver.sh]: https://github.com/qzb/sh-semver
-[semtag]: https://github.com/nico2sh/semtag/blob/master/semtag
-
-An extra bonus with this project is that you can use it as an actual dependency with Basalt
+Note that this library has a significant disadvantage (unlike my other Bash libraries) that it executes `perl` to parse the regex. This will be fixed in a later release
 
 ## Installation
 
@@ -30,8 +13,3 @@ Use [Basalt](https://github.com/hyperupcall/basalt), a Bash package manager, to 
 ```sh
 basalt add 'hyperupcall/bash-semver'
 ```
-
-## Roadmap
-
-- Tests
-- Ensure Regex works on MacOS
