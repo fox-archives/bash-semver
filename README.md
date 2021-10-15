@@ -1,6 +1,6 @@
 # bash-semver
 
-Semantic Versioning for Bash
+Semantic versioning for Bash
 
 ## Notes
 
