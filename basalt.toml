@@ -1,4 +1,5 @@
 [package]
+type = 'bash'
 name = 'bash-semver'
 slug = 'bash_semver'
 version = '0.2.2'
