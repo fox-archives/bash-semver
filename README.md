@@ -1,5 +1,7 @@
 # bash-semver
 
+Archived - moved to [bash-std](https://github.com/hyperupcall/bash-std)
+
 Semantic versioning for Bash
 
 ## Notes
